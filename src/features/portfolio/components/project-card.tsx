@@ -44,7 +44,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
   const baseClasses = cn(
     "group block h-full p-5 rounded-lg border transition-all duration-300 select-none",
     "bg-cream-dark/30 dark:bg-neutral-900/50",
-    "border-sage/20 dark:border-neutral-800", // Tes bordures
+    "border-sage/20 dark:border-neutral-800", 
     active
       ? "hover:border-sage hover:bg-white dark:hover:border-sage-light dark:hover:bg-neutral-900 cursor-pointer"
       : "opacity-50 pointer-events-none border-gray-200 dark:border-0",
@@ -53,7 +53,6 @@ export function ProjectCard({ project }: ProjectCardProps) {
   const content = (
     <>
       <div className="flex justify-between items-start mb-3 relative">
-        {/* Gestion du Logo Entreprise avec ton animation Heartbeat */}
         {companyLogoUrl && !isSideProject && (
           <Image
             src={companyLogoUrl}
@@ -87,7 +86,6 @@ export function ProjectCard({ project }: ProjectCardProps) {
             return (
               <Badge key={index} variant="secondary" className="gap-1.5 pr-2.5">
                 {Icon && <Icon className="h-4 w-4 " />}
-                {/* Icône size xs */}
                 {t}
               </Badge>
             );
