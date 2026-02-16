@@ -7,6 +7,9 @@
     "strict": true,
     "noEmit": true,
     "esModuleInterop": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
     "module": "esnext",
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
@@ -19,7 +22,11 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./src/*"],
+      "@/components/*": ["./src/features/portfolio/components/*"],
+      "@/data/*": ["./src/features/portfolio/data/*"],
+      "@/core/*": ["./src/core/*"],
+      "@/features/*": ["./src/features/*"]
     }
   },
   "include": [
@@ -28,7 +35,8 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
-    "**/*.mts"
-, "tailwind.config.ts"  ],
+    "**/*.mts",
+    "tailwind.config.ts"
+  ],
   "exclude": ["node_modules"]
 }
