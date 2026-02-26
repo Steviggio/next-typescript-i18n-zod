@@ -10,6 +10,11 @@ import {
   MistralIcon,
   FirebaseIcon,
   StrapiIcon,
+  TypeScriptIcon,
+  NextjsIcon,
+  ZodIcon,
+  TailwindIcon,
+  AngularIcon,
 } from "@/core/ui/icons/tech-icons";
 import { Badge } from "@/core/ui/badge";
 
@@ -28,6 +33,11 @@ const TECH_ICONS: Record<string, React.ElementType> = {
   Firebase: FirebaseIcon,
   "Mistral AI": MistralIcon,
   Strapi: StrapiIcon,
+  TypeScript: TypeScriptIcon,
+  "Next.js": NextjsIcon,
+  Zod: ZodIcon,
+  TailwindCSS: TailwindIcon,
+  Angular: AngularIcon,
 };
 
 export function ProjectCard({ project }: ProjectCardProps) {
@@ -44,7 +54,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
   const baseClasses = cn(
     "group block h-full p-5 rounded-lg border transition-all duration-300 select-none",
     "bg-cream-dark/30 dark:bg-neutral-900/50",
-    "border-sage/20 dark:border-neutral-800", 
+    "border-sage/20 dark:border-neutral-800",
     active
       ? "hover:border-sage hover:bg-white dark:hover:border-sage-light dark:hover:bg-neutral-900 cursor-pointer"
       : "opacity-50 pointer-events-none border-gray-200 dark:border-0",
