@@ -11,6 +11,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["var(--font-inter)", "ui-sans-serif", "system-ui"],
+      },
       keyframes: {
         heartbeat: {
           "0%, 100%": { transform: "scale(1)" },
