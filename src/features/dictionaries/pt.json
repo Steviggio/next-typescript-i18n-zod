@@ -1,4 +1,8 @@
 {
+    "status": {
+        "available": "Disponível para novas oportunidades",
+        "busy": "Atualmente em missão"
+    },
     "metadata": {
         "title": "Desenvolvedor Fullstack JS - Portfólio de Steve Mothmora",
         "description": "Descubra o portfólio de Steve Mothmora, um desenvolvedor Fullstack JS especializado em tecnologias modernas como Next.js, React e Node.js. Explore seus projetos inovadores e habilidades em desenvolvimento web."
@@ -19,6 +23,14 @@
     "about": {
         "title": "Sobre mim",
         "description": "Sou um desenvolvedor apaixonado com experiência na criação de aplicações web modernas."
+    },
+    "dev": "Modo desenvolvedor",
+    "sections": {
+        "about": "Sobre mim",
+        "selectedProjects": "Projetos selecionados",
+        "companyProjects": "Projetos em empresa",
+        "experiences": "Experiências profissionais",
+        "resume": "Ver meu CV"
     },
     "projects": {
         "informations": {
@@ -68,7 +80,32 @@
         }
     },
     "contact": {
-        "title": "Entre em contato comigo",
-        "description": "Não hesite em me contatar para qualquer dúvida ou colaboração."
+        "title": "Contato",
+        "description": "Uma pergunta, uma proposta ou simplesmente quer trocar ideias? Não hesite em me enviar um email ou me contatar diretamente no LinkedIn.",
+        "emailLabel": "Me envie um email",
+        "linkedinLabel": "Fale no LinkedIn",
+        "form": {
+            "name": "Nome",
+            "email": "Endereço de Email",
+            "subject": "Assunto",
+            "message": "Sua Mensagem",
+            "submit": "Enviar mensagem",
+            "submitting": "Enviando...",
+            "namePlaceholder": "Seu nome",
+            "emailPlaceholder": "Seu endereço de email",
+            "subjectPlaceholder": "Assunto da sua mensagem",
+            "messagePlaceholder": "Escreva sua mensagem aqui..."
+        },
+        "messages": {
+            "success": "Sua mensagem foi enviada com sucesso!",
+            "errorServer": "Ocorreu um erro no servidor. Por favor, tente novamente mais tarde.",
+            "errorValidation": "A validação falhou. Por favor, verifique os campos."
+        },
+        "validation": {
+            "nameMin": "O nome deve conter pelo menos 2 caracteres.",
+            "emailInvalid": "O endereço de email é inválido.",
+            "subjectMin": "O assunto deve conter pelo menos 5 caracteres.",
+            "messageMin": "A mensagem deve conter pelo menos 10 caracteres."
+        }
     }
 }

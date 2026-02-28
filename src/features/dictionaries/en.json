@@ -1,4 +1,8 @@
 {
+    "status": {
+        "available": "Available for new opportunities",
+        "busy": "Currently on mission"
+    },
     "metadata": {
         "title": "Steve Mothmora's Portfolio - Fullstack JS Developer",
         "description": "Discover Steve Mothmora's portfolio, a Fullstack JS developer specialized in modern technologies such as Next.js, React, and Node.js. Explore his innovative projects and web development skills."
@@ -19,6 +23,14 @@
     "about": {
         "title": "About me",
         "description": "I am a passionate developer with experience in creating modern web applications."
+    },
+    "dev": "Developer Mode",
+    "sections": {
+        "about": "About me",
+        "selectedProjects": "Selected Projects",
+        "companyProjects": "Company Projects",
+        "experiences": "Professional Experiences",
+        "resume": "View my CV"
     },
     "projects": {
         "informations": {
@@ -68,7 +80,32 @@
         }
     },
     "contact": {
-        "title": "Contact me",
-        "description": "Don't hesitate to contact me for any question or collaboration."
+        "title": "Contact",
+        "description": "Do you have a question, a proposal or simply want to exchange ideas? Don't hesitate to send me an email or contact me directly on LinkedIn.",
+        "emailLabel": "Send me an email",
+        "linkedinLabel": "Talk on LinkedIn",
+        "form": {
+            "name": "Name",
+            "email": "Email Address",
+            "subject": "Subject",
+            "message": "Your Message",
+            "submit": "Send Message",
+            "submitting": "Sending...",
+            "namePlaceholder": "Your name",
+            "emailPlaceholder": "Your email address",
+            "subjectPlaceholder": "Your message subject",
+            "messagePlaceholder": "Write your message here..."
+        },
+        "messages": {
+            "success": "Your message has been sent successfully!",
+            "errorServer": "An error occurred on the server. Please try again later.",
+            "errorValidation": "The validation failed. Please check the fields."
+        },
+        "validation": {
+            "nameMin": "The name must contain at least 2 characters.",
+            "emailInvalid": "The email address is invalid.",
+            "subjectMin": "The subject must contain at least 5 characters.",
+            "messageMin": "The message must contain at least 10 characters."
+        }
     }
 }

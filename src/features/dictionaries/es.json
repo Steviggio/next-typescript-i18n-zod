@@ -1,4 +1,8 @@
 {
+    "status": {
+        "available": "Disponible para nuevas oportunidades",
+        "busy": "Actualmente en misión"
+    },
     "metadata": {
         "title": "Portafolio de Steve Mothmora - Desarrollador Fullstack JS",
         "description": "Descubre el portafolio de Steve Mothmora, un desarrollador Fullstack JS especializado en tecnologías modernas como Next.js, React y Node.js. Explora sus proyectos innovadores y habilidades en desarrollo web."
@@ -60,6 +64,14 @@
             }
         }
     },
+    "dev": "Modo desarrollador",
+    "sections": {
+        "about": "Sobre mí",
+        "selectedProjects": "Proyectos seleccionados",
+        "companyProjects": "Proyectos en empresa",
+        "experiences": "Experiencias profesionales",
+        "resume": "Ver mi CV"
+    },
     "experiences": {
         "role": {
             "efficience": "Desarrollador Front-end",
@@ -68,7 +80,32 @@
         }
     },
     "contact": {
-        "title": "Contáctame",
-        "description": "No dudes en contactarme para cualquier pregunta o colaboración."
+        "title": "Contacto",
+        "description": "¿Una pregunta, una propuesta o simplemente quieres intercambiar ideas? No dudes en enviarme un correo o contactarme directamente en LinkedIn.",
+        "emailLabel": "Enviarme un correo",
+        "linkedinLabel": "Hablar en LinkedIn",
+        "form": {
+            "name": "Nombre",
+            "email": "Dirección de Email",
+            "subject": "Asunto",
+            "message": "Tu Mensaje",
+            "submit": "Enviar mensaje",
+            "submitting": "Enviando...",
+            "namePlaceholder": "Tu nombre",
+            "emailPlaceholder": "Tu dirección de email",
+            "subjectPlaceholder": "Asunto de tu mensaje",
+            "messagePlaceholder": "Escribe tu mensaje aquí..."
+        },
+        "messages": {
+            "success": "Tu mensaje ha sido enviado con éxito!",
+            "errorServer": "Ocurrió un error en el servidor. Por favor, inténtalo de nuevo más tarde.",
+            "errorValidation": "La validación falló. Por favor, verifica los campos."
+        },
+        "validation": {
+            "nameMin": "El nombre debe contener al menos 2 caracteres.",
+            "emailInvalid": "La dirección de email es inválida.",
+            "subjectMin": "El asunto debe contener al menos 5 caracteres.",
+            "messageMin": "El mensaje debe contener al menos 10 caracteres."
+        }
     }
 }
