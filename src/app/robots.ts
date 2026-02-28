@@ -1,12 +1,13 @@
 import { MetadataRoute } from "next";
 
 export default function robots(): MetadataRoute.Robots {
+  const baseUrl = "https://www.steviggio.fr";
   return {
     rules: {
       userAgent: "*",
       allow: "/",
-      disallow: "/private/",
+      disallow: ["/private/", "/api/", "/_next/"],
     },
-    sitemap: "https://www.steviggio.fr/sitemap.xml",
+    sitemap: `${baseUrl}/sitemap.xml`,
   };
 }

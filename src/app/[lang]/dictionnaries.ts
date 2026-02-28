@@ -2,19 +2,19 @@ import "server-only";
 
 const dictionnaries = {
   fr: () =>
-    import("../../features/dictionnaries/fr.json").then(
+    import("../../features/dictionaries/fr.json").then(
       (module) => module.default,
     ),
   pt: () =>
-    import("../../features/dictionnaries/pt.json").then(
+    import("../../features/dictionaries/pt.json").then(
       (module) => module.default,
     ),
   es: () =>
-    import("../../features/dictionnaries/es.json").then(
+    import("../../features/dictionaries/es.json").then(
       (module) => module.default,
     ),
   en: () =>
-    import("../../features/dictionnaries/en.json").then(
+    import("../../features/dictionaries/en.json").then(
       (module) => module.default,
     ),
 };

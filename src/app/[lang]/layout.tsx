@@ -35,6 +35,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       siteName: "Steviggio Portfolio",
       locale: lang,
       type: "website",
+      images: [
+        {
+          url: `${baseUrl}/og-image.jpg`,
+          width: 1200,
+          height: 630,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: dict.metadata.title,
+      description: dict.metadata.description,
+      creator: "@steviggio",
+      images: [`${baseUrl}/og-image.jpg`],
     },
     alternates: {
       canonical: `${baseUrl}/${lang}`,
@@ -43,7 +57,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         fr: "/fr",
         es: "/es",
         pt: "/pt",
-        "x-default": `${baseUrl}/fr`, // Recommandé pour le SEO
+        "x-default": `${baseUrl}/fr`,
       },
     },
   };
