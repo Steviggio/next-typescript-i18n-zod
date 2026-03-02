@@ -36,39 +36,39 @@
         "informations": {
             "polypost": {
                 "title": "Polypost",
-                "description": "Painel de controle em tempo real com Next.js 14 e Tremor."
+                "description": "Painel de controle em tempo real com Next.js 16 e Tremor."
             },
             "eshop-template": {
                 "title": "Eshop Template",
-                "description": "Modelo de e-commerce construído com Next.js 14 e Tailwind CSS."
+                "description": "Modelo de e-commerce construído com Next.js 16 e Tailwind CSS."
             },
             "speakio": {
                 "title": "Speakio",
-                "description": "Plataforma de recursos para o aprendizado de idiomas."
+                "description": "Em desenvolvimento"
             },
             "portfolio": {
                 "title": "Portfolio",
-                "description": "Meu portfólio pessoal, construído com Next.js 14 e Tailwind CSS."
+                "description": "Meu portfólio pessoal, construído com Next.js 16 e Tailwind CSS."
             },
             "ganatan": {
                 "title": "Ganatan",
-                "description": "Plataforma de recursos para o aprendizado de idiomas."
+                "description": "Plataforma de formação fullstack Angular/Node."
             },
             "qobook": {
                 "title": "Qobook",
-                "description": "Plataforma de recursos para o aprendizado de idiomas."
+                "description": "Livraria movel para descobrir e ler livros."
             },
             "365fois": {
                 "title": "365 vezes mais laïcité",
-                "description": "Plataforma de recursos para o aprendizado de idiomas."
+                "description": "Aplicativo nativo de sensibilização para a laicidade."
             },
             "questitution": {
                 "title": "Questitution",
-                "description": "Um jogo em colaboração com o conselho constitucional para aprender a constituição francesa através de um quiz."
+                "description": "Um jogo desenvolvido para o Conselho Constitucional com o objetivo de ensinar a Constituição francesa através de um questionario."
             },
             "jetulis": {
                 "title": "Jetulis",
-                "description": "Uma aplicação mobile que oferece uma experiência de leitura imersiva para crianças, com funcionalidades de personalização e interatividade."
+                "description": "Uma aplicação movel que oferece uma experiência de leitura imersiva para crianças, com funcionalidades de personalização e interatividade."
             }
         }
     },

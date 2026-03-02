@@ -36,39 +36,39 @@
         "informations": {
             "polypost": {
                 "title": "Polypost",
-                "description": "Real-time dashboard with Next.js 14 and Tremor."
+                "description": "Real-time dashboard with Next.js 16 and Tremor."
             },
             "eshop-template": {
                 "title": "Eshop Template",
-                "description": "E-commerce template built with Next.js 14 and Tailwind CSS."
+                "description": "E-commerce template built with Next.js 16 and Tailwind CSS."
             },
             "speakio": {
                 "title": "Speakio",
-                "description": "Platform of resources for language learning."
+                "description": "Work in progress"
             },
             "portfolio": {
                 "title": "Portfolio",
-                "description": "My personal portfolio, built with Next.js 14 and Tailwind CSS."
+                "description": "My personal portfolio, built with Next.js 16 and Tailwind CSS."
             },
             "ganatan": {
                 "title": "Ganatan",
-                "description": "Platform of resources for language learning."
+                "description": "Angular/Node fullstack learning platform."
             },
             "qobook": {
                 "title": "Qobook",
-                "description": "Platform of resources for language learning."
+                "description": "Native library to discover and read books."
             },
             "365fois": {
                 "title": "365 fois plus de laïcité",
-                "description": "Platform of resources for language learning."
+                "description": "Native secularism awareness application."
             },
             "questitution": {
                 "title": "Questitution",
-                "description": "A game in collaboration with the Ministry of Education to learn the French Constitution through a quiz."
+                "description": "A react game in collaboration with the constitutional council to learn the French constitution through a quiz."
             },
             "jetulis": {
                 "title": "Jetulis",
-                "description": "A mobile application offering an immersive reading experience for children, with customization and interactivity features."
+                "description": "A native application offering an immersive reading experience for children, with customization and interactivity features."
             }
         }
     },

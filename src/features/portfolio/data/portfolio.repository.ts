@@ -31,7 +31,7 @@ export const RAW_DATA = {
     {
       id: "polypost",
       title: "Polypost",
-      description: "Tableau de bord temps réel avec Next.js 14 et Tremor.",
+      description: "Tableau de bord temps réel avec Next.js 16 et Tremor.",
       link: "https://github.com/Steviggio/polypost",
       active: true,
       isSideProject: true,
@@ -112,7 +112,7 @@ export const RAW_DATA = {
       active: true,
       companyLogoUrl: "/questitution-logo.svg",
       company: "Questitution",
-      tech: ["React", "Next.js", "TypeScript"],
+      tech: ["React", "TypeScript"],
       isSideProject: false,
     },
     {

@@ -28,31 +28,31 @@
         "informations": {
             "polypost": {
                 "title": "Polypost",
-                "description": "Panel de control en tiempo real con Next.js 14 y Tremor."
+                "description": "Panel de control en tiempo real con Next.js 16 y Tremor."
             },
             "eshop-template": {
                 "title": "Eshop Template",
-                "description": "Plantilla de comercio electrónico construida con Next.js 14 y Tailwind CSS."
+                "description": "Plantilla de comercio electrónico construida con Next.js 16 y Tailwind CSS."
             },
             "speakio": {
                 "title": "Speakio",
-                "description": "Plataforma de recursos para el aprendizaje de idiomas."
+                "description": "Desarollo en progreso."
             },
             "portfolio": {
                 "title": "Portfolio",
-                "description": "Mi portafolio personal, construido con Next.js 14 y Tailwind CSS."
+                "description": "Mi portafolio personal, construido con Next.js 16 y Tailwind CSS."
             },
             "ganatan": {
                 "title": "Ganatan",
-                "description": "Plataforma de recursos para el aprendizaje de idiomas."
+                "description": "Plataforma de formacion fullstack Angular/Node."
             },
             "qobook": {
                 "title": "Qobook",
-                "description": "Plataforma de recursos para el aprendizaje de idiomas."
+                "description": "Libreria movil para descubrir y leer libros."
             },
             "365fois": {
                 "title": "365 veces más laïcité",
-                "description": "Plataforma de recursos para el aprendizaje de idiomas."
+                "description": "Aplicacion nativa de concienciacion sobre el secularismo."
             },
             "questitution": {
                 "title": "Questitution",

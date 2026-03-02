@@ -37,35 +37,35 @@
         "informations": {
             "polypost": {
                 "title": "Polypost",
-                "description": "Tableau de bord temps réel avec Next.js 14 et Tremor."
+                "description": "Tableau de bord temps réel avec Next.js 16 et Tremor."
             },
             "eshop-template": {
                 "title": "Eshop Template",
-                "description": "Template e-commerce construit avec Next.js 14 et Tailwind CSS."
+                "description": "Template e-commerce construit avec Next.js 16 et Tailwind CSS."
             },
             "speakio": {
                 "title": "Speakio",
-                "description": "Plateforme de ressources permettant l'apprentissage des langues."
+                "description": "En cours de développement."
             },
             "portfolio": {
                 "title": "Portfolio",
-                "description": "Mon portfolio personnel, construit avec Next.js 14 et Tailwind CSS."
+                "description": "Mon portfolio personnel, construit avec Next.js 16 et Tailwind CSS."
             },
             "ganatan": {
                 "title": "Ganatan",
-                "description": "Plateforme de ressources pour l'apprentissage des langues."
+                "description": "Plateforme de formation Fullstack Angular/Node."
             },
             "qobook": {
                 "title": "Qobook",
-                "description": "Plateforme de ressources pour l'apprentissage des langues."
+                "description": "Librairie mobile pour découvrir et lire des livres."
             },
             "365fois": {
                 "title": "365 fois plus de laïcité",
-                "description": "Plateforme de ressources pour l'apprentissage des langues."
+                "description": "Application native de sensibilisation à la laïcité."
             },
             "questitution": {
                 "title": "Questitution",
-                "description": "Un jeu en collaboration avec le ministère de l'éducation pour apprendre la constition française au travers d'un quizz.."
+                "description": "Un jeu développé pour le conseil constitutionnel afin d'apprendre la constitution française au travers d'un quizz."
             },
             "jetulis": {
                 "title": "Jetulis",
