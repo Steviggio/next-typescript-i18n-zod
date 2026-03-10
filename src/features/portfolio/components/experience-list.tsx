@@ -27,12 +27,12 @@ export function ExperienceList({ experiences }: ExperienceListProps) {
               </span>
             )}
 
-            <span className="font-mono text-sm text-sage/70 dark:text-neutral-500">
+            <span className="font-mono text-sm text-sage-dark dark:text-neutral-400">
               {exp.date}
             </span>
           </div>
 
-          <p className="mt-1 text-sm text-sage dark:text-neutral-400">
+          <p className="mt-1 text-sm text-sage-dark dark:text-neutral-300">
             {exp.role}
           </p>
 
