@@ -3,9 +3,9 @@
 Un template de portfolio moderne, léger et multilingue construit avec Next.js 16, Tailwind CSS, et Zod. Conçu pour être facilement déployable et hautement personnalisable.
 
 ### ⚡ Score Lighthouse
-![Performance](https://img.shields.io/badge/Performance-95-brightgreen?style=for-the-badge&logo=Lighthouse)
-![Accessibility](https://img.shields.io/badge/Accessibility-94-brightgreen?style=for-the-badge&logo=Lighthouse)
-![Best_Practices](https://img.shields.io/badge/Best_Practices-96-brightgreen?style=for-the-badge&logo=Lighthouse)
+![Performance](https://img.shields.io/badge/Performance-97-brightgreen?style=for-the-badge&logo=Lighthouse)
+![Accessibility](https://img.shields.io/badge/Accessibility-96-brightgreen?style=for-the-badge&logo=Lighthouse)
+![Best_Practices](https://img.shields.io/badge/Best_Practices-100-brightgreen?style=for-the-badge&logo=Lighthouse)
 ![SEO](https://img.shields.io/badge/SEO-100-brightgreen?style=for-the-badge&logo=Lighthouse)
 
 ---
