@@ -64,6 +64,15 @@ Le style général est géré par Tailwind CSS.
 - **Polices** : La police par défaut est _Inter_. Vous pouvez la modifier dans le `layout.tsx` principal (`src/app/[lang]/layout.tsx`).
 - **Couleurs** : La charte graphique (couleurs `sage`, `cream`, etc.) est définie directement dans le fichier `tailwind.config.ts`. Modifiez son contenu pour adapter les couleurs globales du template à votre identité visuelle.
 
+
+### ⚡ Score Lighthouse
+![Performance](https://img.shields.io/badge/Performance-95-brightgreen?style=for-the-badge&logo=Lighthouse)
+![Accessibility](https://img.shields.io/badge/Accessibility-94-brightgreen?style=for-the-badge&logo=Lighthouse)
+![Best_Practices](https://img.shields.io/badge/Best_Practices-96-brightgreen?style=for-the-badge&logo=Lighthouse)
+![SEO](https://img.shields.io/badge/SEO-100-brightgreen?style=for-the-badge&logo=Lighthouse)
+
+
+
 ## 📝 License
 
 Distribué sous la licence MIT. Voir `LICENSE` pour plus d'informations.
