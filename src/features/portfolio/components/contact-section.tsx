@@ -17,7 +17,7 @@ export function ContactSection({
   return (
     <div className="flex flex-col items-start gap-6 p-8 bg-cream-dark/30 dark:bg-neutral-900/50 border border-sage/20 dark:border-neutral-800 rounded-2xl">
       <div className="max-w-xl">
-        <p className="text-sage/80 dark:text-neutral-400 leading-relaxed">
+        <p className="text-sage-dark dark:text-neutral-300 leading-relaxed">
           {dict.description}
         </p>
       </div>

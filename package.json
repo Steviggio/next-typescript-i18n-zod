@@ -11,6 +11,12 @@
     "start": "next start",
     "lint": "eslint"
   },
+  "browserslist": [
+    "chrome >= 90",
+    "firefox >= 90",
+    "safari >= 15",
+    "edge >= 90"
+  ],
   "dependencies": {
     "@formatjs/intl-localematcher": "^0.8.1",
     "@radix-ui/react-slot": "^1.2.4",

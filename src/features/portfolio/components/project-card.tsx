@@ -57,7 +57,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
     "border-sage/20 dark:border-neutral-800",
     active
       ? "hover:border-sage hover:bg-white dark:hover:border-sage-light dark:hover:bg-neutral-900 cursor-pointer"
-      : "opacity-50 pointer-events-none border-gray-200 dark:border-0",
+      : "opacity-75 pointer-events-none border-gray-200 dark:border-0",
   );
 
   const content = (
@@ -74,9 +74,9 @@ export function ProjectCard({ project }: ProjectCardProps) {
         )}
 
         <div className="flex flex-col gap-1">
-          <h4 className="font-medium text-sage-dark dark:text-cream group-hover:text-sage transition-colors">
+          <h3 className="font-medium text-sage-dark dark:text-cream group-hover:text-sage transition-colors">
             {title}
-          </h4>
+          </h3>
         </div>
 
         {active && (
@@ -84,7 +84,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
         )}
       </div>
 
-      <p className="text-sm text-sage/80 dark:text-neutral-400 leading-relaxed mb-3">
+      <p className="text-sm text-sage-dark dark:text-neutral-300 leading-relaxed mb-3">
         {description}
       </p>
 
